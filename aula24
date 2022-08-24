@@ -1,0 +1,17 @@
+public class aula2408 {
+     public static void main(String[] args){
+     Scanner entrada = new Scanner (System.in);
+     int quant = 0;
+     
+     System.out.println("Informe a quantidade de carros comprados");
+     quant = entrada.nextInt();
+     
+      if (quant<= 5){
+      quant = 500*quant+1000;    
+      System.out.println("o valor total é:"+quant);    
+      } 
+      
+      else {
+      quant = 1000*quant+1000;
+      System.out.println("o valor total é:"+quant);
+      }}}
